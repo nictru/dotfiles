@@ -1,0 +1,90 @@
+Host github.com
+    Hostname github.com
+    IdentityFile ~/.ssh/keys/github
+
+Host oscar
+    Hostname 10.162.163.32
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+
+Host norm.ssh
+    Hostname 10.162.163.34
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+
+Host norm
+    Hostname 10.162.163.34
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+    RequestTTY yes
+    RemoteCommand tmux new-session -A -s main
+
+Host storage
+    Hostname 10.162.163.50
+    User exbioadm
+    IdentityFile ~/.ssh/keys/daisybio
+    RequestTTY yes
+    RemoteCommand tmux new-session -A -s main
+
+Host reposrv
+    Hostname 10.162.163.16
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+    RequestTTY yes
+    RemoteCommand tmux new-session -A -s main
+
+Host alfred
+    Hostname 10.162.163.20
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+    RequestTTY yes
+    RemoteCommand tmux new-session -A -s main
+
+Host elmo
+    Hostname 10.162.163.22
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+    RequestTTY yes
+    RemoteCommand tmux new-session -A -s main
+
+Host bert
+    Hostname 10.162.163.24
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+    RequestTTY yes
+    RemoteCommand tmux new-session -A -s main
+
+Host ernie
+    Hostname 10.162.163.26
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+    RequestTTY yes
+    RemoteCommand tmux new-session -A -s main
+
+Host kermit
+    Hostname 10.162.163.28
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+    RequestTTY yes
+    RemoteCommand tmux new-session -A -s main
+
+Host grover
+    Hostname 10.162.163.30
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+    RequestTTY yes
+    RemoteCommand tmux new-session -A -s main
+
+Host gpu01
+    Hostname 10.162.136.18
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+    RequestTTY yes
+    RemoteCommand tmux new-session -A -s main
+
+Host gpu02
+    Hostname 10.162.163.36
+    User n.trummer
+    IdentityFile ~/.ssh/keys/daisybio
+    RequestTTY yes
+    RemoteCommand tmux new-session -A -s main
