@@ -7,3 +7,5 @@ cd ~/.ssh/keys
 chezmoi cd
 git remote set-url origin git@github.com:nictru/dotfiles.git
 ```
+
+Then add the created `~/.ssh/keys/github.pub` to GitHub.
